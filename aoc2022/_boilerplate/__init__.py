@@ -16,14 +16,14 @@ def parse_data(input_filename: str | Path):
     return ""
 
 
-def solve_part_a(filename: str = PUZZLE_INPUT_FILENAME):
+def solve_part_a(filename: str | Path = PUZZLE_INPUT_FILENAME):
     """Part A Solution"""
 
     dataset = parse_data(filename)
     return len(dataset)
 
 
-def solve_part_b(filename: str = PUZZLE_INPUT_FILENAME):
+def solve_part_b(filename: str | Path = PUZZLE_INPUT_FILENAME):
     """Part B Solution"""
 
     dataset = parse_data(filename)
