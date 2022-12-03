@@ -1,4 +1,4 @@
-"""AoC 2022, Day 01, Part A Functional Code"""
+"""AoC 2022, Day 01, Functional Code"""
 
 from pathlib import Path
 from typing import Optional

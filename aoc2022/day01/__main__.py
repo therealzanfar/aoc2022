@@ -1,4 +1,4 @@
-"""AoC 2022, Day 01 Solutions"""
+"""AoC 2022, Day 01, CLI Code"""
 
 import logging
 import sys

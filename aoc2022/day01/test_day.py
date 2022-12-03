@@ -1,4 +1,4 @@
-"""AoC 2022, Day 01, Part A Unit Tests"""
+"""AoC 2022, Day 01, Unit Tests"""
 
 from pathlib import Path
 
