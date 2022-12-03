@@ -19,11 +19,14 @@ classifiers = [
 
 
 [tool.poetry.scripts]
-aoc2022 = 'aoc2022.__main__:cli'
+aoc2022 = "aoc2022.__main__:cli"
 
 [tool.pylint.basic]
 good-names-rgxs = ["^[a-z_][a-z]?"]
 no-docstring-rgx = "^_|[Tt]est|[Mm]ock"
+
+[tool.pytest.ini_options]
+norecursedirs = ["_boilerplate"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
