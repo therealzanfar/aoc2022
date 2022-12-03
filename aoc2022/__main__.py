@@ -51,10 +51,7 @@ def cli(
             day_module = import_module(
                 f"{PACKAGE_NAME}.{day_module_name(d)}.__main__"
             )
-            retval = day_module.show_output(part)
-
-            if retval != 0:
-                return retval
+            day_module.show_output(part)
 
         else:
             logger.info("Day %d was not selected for output", d)
